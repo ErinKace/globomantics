@@ -3,8 +3,9 @@ function Banner() {
     return (<>
     <header>
         <div>
-            <img src="" alt="logo"/>
-        </div>   
+            <img src="./assets/GlobomanticsLogo.png" alt="logo"/>
+        </div> 
+        <div>Providing houses all over the world</div>  
     </header>
     </>)
 
