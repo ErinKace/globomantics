@@ -1,11 +1,13 @@
+import logo from "../assets/GlobomanticsLogo.png";
+
 function Banner() {
 
     return (<>
-    <header>
-        <div>
-            <img src="./assets/GlobomanticsLogo.png" alt="logo"/>
+    <header className="row">
+        <div className="col-5">
+            <img src={logo} alt="logo"/>
         </div> 
-        <div>Providing houses all over the world</div>  
+        <div className="col-7">Providing houses all over the world</div>  
     </header>
     </>)
 
